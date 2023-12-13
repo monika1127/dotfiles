@@ -1,11 +1,11 @@
 [user]
-	email = korczas@gmail.com
-  user = Kamil Korczynski
-  username = korczas
-	name = Kamil Korczynski
+	username = monika1127
+  name = Monika Dziub Korczynska
+  user = Monika Dziub Korczynska
+	email = dziubmonika@gmail.com
 
 [core]
-  editor = vim
+  editor = code --wait
   excludesfile = ~/.gitignore_global
   pager = delta
 
@@ -21,7 +21,7 @@
   diffFilter = delta --color-only --features=interactive
 
 [init]
-	defaultBranch = master
+	defaultBranch = main
 
 [url "git@github.com:"]
 	insteadOf = https://github.com/
@@ -45,10 +45,3 @@
     hunk-header-file-style = red
     hunk-header-line-number-style = "#067a00"
     hunk-header-style = file line-number syntax
-
-[credential "https://github.com"]
-	helper =
-	helper = !/usr/local/bin/gh auth git-credential
-[credential "https://gist.github.com"]
-	helper =
-	helper = !/usr/local/bin/gh auth git-credential
